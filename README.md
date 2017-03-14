@@ -1,6 +1,10 @@
 # ajaxfileupload
 
 ## 通用异步上传组件 基于Jquery
+此插件是闲心大神layui中上传插件 单独版本 由于经常需要使用异步上传组件  在小项目中 又感觉没有必要引入整个框架
+稍加修改做了此单独上传组件的版本
+
+原版出处 http://www.layui.com/doc/modules/upload.html
 
 ### 使用方法:
 
