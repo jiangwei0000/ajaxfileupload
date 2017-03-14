@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="jupload.css">
+<script type="text/javascript" src="http://static.ebanhui.com/js/jquery-1.11.0.min.js"></script>
+
+<script type="text/javascript" src="upload.js"></script>
+</head>
+<body>
+	<input type="file" name="Filedata" class="jupload-file">
+
+<script>
+
+	var upload = new Jupload({
+		url:'http://www.ebh.net/forum/upload.html',
+		success:function(res){
+			console.log(res);
+		}
+	});
+	
+</script>
+</body>
+</html>

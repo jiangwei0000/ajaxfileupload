@@ -1,0 +1,41 @@
+.jupload-iframe{display: none;}
+.jupload-button {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 60px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #DFDFDF;
+    border-radius: 2px;
+    overflow: hidden;
+    background-color: #fff;
+    color: #666;
+    outline: 0;
+    box-sizing: border-box!important;
+    font-size: 14px;
+    z-index: 999!important;
+}
+.jupload-button form{
+	margin: 0px;
+	box-sizing: content-box!important;
+}
+.jupload-button input {
+
+	cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    font-size: 100px;
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box!important;
+    opacity: 0
+}
+.jupload-icon {
+    display: block;
+    margin: 0 15px;
+    text-align: center;
+    z-index: 9999;
+}
